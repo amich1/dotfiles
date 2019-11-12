@@ -13,5 +13,5 @@ alias aliases="vim ~/.aliases"
 alias cfg="git --git-dir=$HOME/.cfg --work-tree=$HOME"
 
 ### other
-alias fuck="sudo $(fc -ln -1)"
+alias fuck="sudo \$(fc -ln -1)"
 
