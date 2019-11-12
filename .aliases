@@ -1,0 +1,17 @@
+### apt
+alias apt="sudo apt"
+alias apti="sudo apt install"
+alias aptr="sudo apt autoremove"
+alias apts="apt search"
+alias aptu="sudo apt update && sudo apt upgrade"
+
+### file shortcuts 
+alias zshrc="vim ~/.zshrc"
+alias aliases="vim ~/.aliases"
+
+### git dotfiles
+alias cfg="git --git-dir=$HOME/.cfg --work-tree=$HOME"
+
+### other
+#alias fuck="sudo $(fc -ln -1)"
+
