@@ -2,7 +2,7 @@
 alias apt="sudo apt"
 alias apti="sudo apt install"
 alias aptr="sudo apt autoremove"
-alias apts="apt search"
+alias apts="/usr/bin/apt search"
 alias aptu="sudo apt update && sudo apt upgrade"
 
 ### file shortcuts 
@@ -13,5 +13,5 @@ alias aliases="vim ~/.aliases"
 alias cfg="git --git-dir=$HOME/.cfg --work-tree=$HOME"
 
 ### other
-#alias fuck="sudo $(fc -ln -1)"
+alias fuck="sudo $(fc -ln -1)"
 
