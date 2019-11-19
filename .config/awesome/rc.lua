@@ -473,6 +473,7 @@ awful.rules.rules = {
                      keys = clientkeys,
                      buttons = clientbuttons,
                      screen = awful.screen.preferred,
+		     size_hints_honor = false,
                      placement = awful.placement.no_overlap+awful.placement.no_offscreen
      }
     },
@@ -581,17 +582,5 @@ end)
 
 client.connect_signal("focus", function(c) c.border_color = beautiful.border_focus end)
 client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_normal end)
-
-do
-	local cmds = 
-	{
-		"wicd-gtk -t",
-		"pnmixer"
-	}
-
-	for _,i in pairs(cmds) do
-		awful.util.spawn(i)
-	end
-end
-
+awful.spawn.with_shell("~/.config/awesome/autorun.sh")
 -- }}}
