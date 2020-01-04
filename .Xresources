@@ -85,7 +85,7 @@ Xft.lcdfilter: lcddefault
 
 
 !!! URXVT
-URxvt.font: xft:SF Mono:size=11:style=Medium:antialias=true:xft:monospace:pixelsize=15
+URxvt.font: xft:SF Mono:size=11:style=Regular:antialias=true:xft:monospace:pixelsize=15
 URxvt.boldFont: xft:SF Mono:size=11:style=Bold:antialias=true:xft:monospace:pixelsize=15
 URxvt.italicFont: xft:SF Mono:size=11:style=Italic:antialias=true:xft:monospace:pixelsize=15
 URxvt.letterSpace: -2.5
