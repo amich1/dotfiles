@@ -4,6 +4,8 @@ alias apti="sudo apt install"
 alias aptr="sudo apt autoremove"
 alias apts="/usr/bin/apt search"
 alias aptu="sudo apt update && sudo apt upgrade"
+alias si="sudo snap install"
+alias sr="snap run"
 
 ### file shortcuts 
 alias zshrc="vim ~/.zshrc"
@@ -12,6 +14,9 @@ alias aliases="vim ~/.aliases"
 ### git dotfiles
 alias cfg="git --git-dir=$HOME/.cfg --work-tree=$HOME"
 
+### snap
+alias code="snap run code"
+
 ### other
 alias fuck="sudo \$(fc -ln -1)"
-
+alias ls="ls -lah --color=auto"
