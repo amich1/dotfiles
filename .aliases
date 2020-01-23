@@ -16,7 +16,9 @@ alias cfg="git --git-dir=$HOME/.cfg --work-tree=$HOME"
 
 ### snap
 alias code="snap run code"
+alias spotify="snap run spotify"
 
 ### other
 alias fuck="sudo \$(fc -ln -1)"
 alias ls="ls -lah --color=auto"
+alias sshfs-server="sshfs arek@arek.wtf:/var/www/arek.wtf/html /home/ghastly/sshfs"

@@ -1,5 +1,3 @@
-#!/usr/bin/env zsh
-
 function run {
 	if ! pgrep -f $1 ;
 	then
