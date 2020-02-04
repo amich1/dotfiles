@@ -23,10 +23,12 @@ map <F7> gg=G<C-o><C-o>
 
 " Ale
 let g:ale_fixers = {
-      \ 'javascript': ['eslint']
+      \ 'javascript': ['eslint'],
+      \ 'cpp': ['clangd']
       \ }
 let g:ale_linters = {
-      \ 'javascript': ['eslint']
+      \ 'javascript': ['eslint'],
+      \ 'cpp': ['clangd']
       \ }
 let g:ale_sign_error = '>>'
 let g:ale_sign_warning = '--'
