@@ -8,7 +8,8 @@ then
 	exit 1
 fi
 
-apt install build-essential sudo neovim rxvt-unicode zsh awesome xorg dbus-x11 feh xpdf xfe git neofetch lightdm wget firefox-esr pnmixer alsa-tools alsa-utils pnmixrpulseaudio pavucontrol net-tools wicd task-print-server snapd
+apt install build-essential sudo neovim rxvt-unicode zsh awesome xorg dbus-x11 feh xpdf xfe git neofetch lightdm wget firefox-esr pnmixer alsa-tools alsa-utils pnmixer pulseaudio pavucontrol net-tools wicd task-print-server snapd
+snap install clangd
 usermod -a -G sudo $1
 
 reboot

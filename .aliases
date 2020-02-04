@@ -17,6 +17,7 @@ alias cfg="git --git-dir=$HOME/.cfg --work-tree=$HOME"
 ### snap
 alias code="snap run code"
 alias spotify="snap run spotify"
+alias discord="snap run discord"
 
 ### other
 alias fuck="sudo \$(fc -ln -1)"
