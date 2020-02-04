@@ -20,5 +20,5 @@ alias spotify="snap run spotify"
 
 ### other
 alias fuck="sudo \$(fc -ln -1)"
-alias ls="ls -lah --color=auto"
+alias ls="ls -lah --color=auto --group-directories-first"
 alias sshfs-server="sshfs arek@arek.wtf:/var/www/arek.wtf/html /home/ghastly/sshfs"
